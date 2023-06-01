@@ -560,7 +560,6 @@ a:link, a:visited, a:active {
     position: relative;
     max-width: 340px;
     height: fit-content;
-    cursor: pointer;
 }
 
 .portfolio .galeria .proyecto img {
@@ -786,7 +785,7 @@ footer .arriba {
     }
 
     .curriculum .fila .col{
-        width: 90%;
+        width: 100%;
     }
 
     .portfolio .galeria{
