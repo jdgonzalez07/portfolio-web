@@ -26,11 +26,12 @@ function efectoHablilidades(){
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("htmlcss");
         habilidades[2].classList.add("github");
-        habilidades[3].classList.add("vue");
+        habilidades[3].classList.add("react");
         habilidades[4].classList.add("comunicacion");
         habilidades[5].classList.add("trabajo");
         habilidades[6].classList.add("creatividad");
         habilidades[7].classList.add("ingles");
+        habilidades[8].classList.add("node");
     }
 }
  // detecto scrolling para aplicar la animación de la barra de hablilidades

@@ -84,6 +84,7 @@ html {
     margin: auto;
     text-align: center;
     border-radius: 40px;
+    margin-top: 5rem;
 }
 
 .inicio .contenido-banner img {
@@ -143,7 +144,8 @@ html {
 }
 
 .sobremi .contenido-section p {
-    font: 18px;
+    text-align: center;
+    font-size: 16px;
     line-height: 22px;
     margin-bottom: 20px;
 }
@@ -185,6 +187,8 @@ html {
 .sobremi .fila .col .contenedor-intereses {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes {
@@ -365,12 +369,12 @@ a:link, a:visited, a:active {
     }
 }
 
-.skills .skill .vue {
+.skills .skill .react {
     width: 0%;
-    animation: 2s vue forwards;
+    animation: 2s react forwards;
 }
 
-@keyframes vue {
+@keyframes react {
     0% {
         width: 0%;
     }
@@ -379,6 +383,20 @@ a:link, a:visited, a:active {
         width: 50%
     }
 }
+/* .skills .skill .node {
+    width: 0%;
+    animation: 2s node forwards;
+}
+
+@keyframes node {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%
+    }
+} */
 
 .skills .skill .comunicacion {
     width: 0%;
@@ -510,8 +528,9 @@ a:link, a:visited, a:active {
     border-radius: 5px;
     box-shadow: 10px 5px 5px 5px black;
     margin-bottom: 2rem;
-    width: 300px;
-    height: 200px;
+    width: 40%;
+    height: 300px;
+    /* object-fit:cover */
     
 }
 
